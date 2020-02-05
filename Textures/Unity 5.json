@@ -33,7 +33,10 @@
         }
     },
     "texturesets": {
-        "initialShadingGroup": {
+        "lambert2SG": {
+            "shader": "Main shader"
+        },
+        "standardSurface2SG": {
             "shader": "Main shader"
         }
     }
