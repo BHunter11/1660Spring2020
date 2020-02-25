@@ -1,10 +1,14 @@
 //Maya ASCII 2020 scene
 //Name: Tumbler.ma
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Last modified: Fri, Feb 21, 2020 12:41:32 AM
 =======
 //Last modified: Sat, Feb 15, 2020 11:37:13 PM
 >>>>>>> f8b6278... Tumbler 2
+=======
+//Last modified: Fri, Feb 21, 2020 12:41:32 AM
+>>>>>>> 1e12995... Tumbler 6
 //Codeset: UTF-8
 requires maya "2020";
 requires "mtoa" "4.0.0";
@@ -15,15 +19,22 @@ fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Mac OS X 10.15.3";
 <<<<<<< HEAD
+<<<<<<< HEAD
 fileInfo "UUID" "5383EFE6-E946-0E48-1570-5DB5851AFD14";
 =======
 fileInfo "UUID" "39D1AED7-CA43-7C40-07A7-D28EC6D55FF5";
 >>>>>>> f8b6278... Tumbler 2
+=======
+fileInfo "UUID" "5383EFE6-E946-0E48-1570-5DB5851AFD14";
+>>>>>>> 1e12995... Tumbler 6
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "31ED1987-134F-9D51-25EC-E8866BC2EFB3";
 	setAttr ".v" no;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1e12995... Tumbler 6
 	setAttr ".t" -type "double3" -10.607454286810267 -20.206110232255966 10.873715246893271 ;
 	setAttr ".r" -type "double3" 166.4616471968065 502.59999999925469 -360.00000000000506 ;
 	setAttr ".rp" -type "double3" -3.5527136788005009e-15 0 5.3290705182007514e-15 ;
@@ -37,10 +48,14 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	setAttr ".coi" 14.383699445018721;
 =======
 	setAttr ".coi" 55.569244399926021;
 >>>>>>> f8b6278... Tumbler 2
+=======
+	setAttr ".coi" 14.383699445018721;
+>>>>>>> 1e12995... Tumbler 6
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -16863,6 +16878,9 @@ createNode mesh -n "polySurfaceShape5" -p "polySurface3";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1e12995... Tumbler 6
 	rename -uid "15D5A0D0-8349-05E9-7015-68BF6C0B4DD8";
 	setAttr -s 6 ".lnk";
 	setAttr -s 6 ".slnk";
@@ -16880,6 +16898,7 @@ createNode displayLayer -n "defaultLayer";
 	rename -uid "A17F9E15-8843-1B8A-4228-5DBD1A58D81F";
 createNode renderLayerManager -n "renderLayerManager";
 	rename -uid "4CABAB1E-B54D-3821-B65B-DDB149FB8BC0";
+<<<<<<< HEAD
 =======
 	rename -uid "D7C83E1C-DC40-379F-2B5C-909C8551A1ED";
 	setAttr -s 6 ".lnk";
@@ -16898,6 +16917,8 @@ createNode displayLayer -n "defaultLayer";
 createNode renderLayerManager -n "renderLayerManager";
 	rename -uid "CC833ED6-9141-CBED-43CB-D8B14C4EEEAF";
 >>>>>>> f8b6278... Tumbler 2
+=======
+>>>>>>> 1e12995... Tumbler 6
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "4F9375A9-7C41-81A1-AD44-4D82859BBF9D";
 	setAttr ".g" yes;
@@ -17213,6 +17234,7 @@ createNode polySplitRing -n "polySplitRing1";
 	setAttr ".p[0]"  0 0 1;
 	setAttr ".uem" no;
 	setAttr ".fq" yes;
+<<<<<<< HEAD
 =======
 createNode polySplitRing -n "polySplitRing1";
 	rename -uid "67D2E2B5-CB48-43A8-A184-1299D6594D7E";
@@ -17276,6 +17298,8 @@ createNode polyTweak -n "polyTweak1";
 	setAttr ".tk[89]" -type "float3" 1.2698933 -1.1638389 -3.6993134 ;
 	setAttr ".tk[90]" -type "float3" 1.2698933 -1.1638389 3.6993136 ;
 >>>>>>> f8b6278... Tumbler 2
+=======
+>>>>>>> 1e12995... Tumbler 6
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
@@ -17429,6 +17453,7 @@ connectAttr "polyTweak9.out" "deleteComponent1.ig";
 connectAttr "deleteComponent1.og" "deleteComponent2.ig";
 connectAttr "deleteComponent2.og" "polySplitRing1.ip";
 connectAttr "polySurfaceShape5.wm" "polySplitRing1.mp";
+<<<<<<< HEAD
 =======
 connectAttr "layerManager.dli[7]" "FrontTireRight.id";
 connectAttr "layerManager.dli[8]" "FrontTireLeft.id";
@@ -17438,6 +17463,8 @@ connectAttr "polyTweak1.out" "polyExtrudeFace1.ip";
 connectAttr "pCubeShape1.wm" "polyExtrudeFace1.mp";
 connectAttr "polySplitRing1.out" "polyTweak1.ip";
 >>>>>>> f8b6278... Tumbler 2
+=======
+>>>>>>> 1e12995... Tumbler 6
 connectAttr "lambert2SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert3SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert4SG.pa" ":renderPartition.st" -na;
