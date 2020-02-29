@@ -1,0 +1,130 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "initialShadingGroup": {
+            "shader": "Main shader"
+        },
+        "lambert21SG": {
+            "shader": "Main shader"
+        },
+        "lambert22SG": {
+            "shader": "Main shader"
+        },
+        "lambert23SG": {
+            "shader": "Main shader"
+        },
+        "lambert25SG": {
+            "shader": "Main shader"
+        },
+        "lambert26SG": {
+            "shader": "Main shader"
+        },
+        "lambert27SG": {
+            "shader": "Main shader"
+        },
+        "lambert30SG": {
+            "shader": "Main shader"
+        },
+        "lambert31SG": {
+            "shader": "Main shader"
+        },
+        "lambert32SG": {
+            "shader": "Main shader"
+        },
+        "lambert33SG": {
+            "shader": "Main shader"
+        },
+        "lambert35SG": {
+            "shader": "Main shader"
+        },
+        "lambert36SG": {
+            "shader": "Main shader"
+        },
+        "lambert37SG": {
+            "shader": "Main shader"
+        },
+        "lambert38SG": {
+            "shader": "Main shader"
+        },
+        "lambert39SG": {
+            "shader": "Main shader"
+        },
+        "lambert40SG": {
+            "shader": "Main shader"
+        },
+        "lambert42SG": {
+            "shader": "Main shader"
+        },
+        "lambert43SG": {
+            "shader": "Main shader"
+        },
+        "lambert44SG": {
+            "shader": "Main shader"
+        },
+        "lambert45SG": {
+            "shader": "Main shader"
+        },
+        "lambert46SG": {
+            "shader": "Main shader"
+        },
+        "lambert47SG": {
+            "shader": "Main shader"
+        },
+        "lambert49SG": {
+            "shader": "Main shader"
+        },
+        "lambert50SG": {
+            "shader": "Main shader"
+        },
+        "lambert51SG": {
+            "shader": "Main shader"
+        },
+        "lambert52SG": {
+            "shader": "Main shader"
+        },
+        "lambert53SG": {
+            "shader": "Main shader"
+        },
+        "lambert54SG": {
+            "shader": "Main shader"
+        },
+        "lambert55SG": {
+            "shader": "Main shader"
+        },
+        "lambert56SG": {
+            "shader": "Main shader"
+        }
+    }
+}
