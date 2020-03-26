@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Overflowing trash in and by trash can.ma
-//Last modified: Tue, Mar 24, 2020 11:53:48 PM
+//Last modified: Wed, Mar 25, 2020 11:44:59 PM
 //Codeset: UTF-8
 requires maya "2020";
 requires "mtoa" "4.0.0";
@@ -10,18 +10,18 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Mac OS X 10.15.3";
-fileInfo "UUID" "11C02DEF-FA40-0B02-BD4B-F4B2855D339C";
+fileInfo "UUID" "4E3FF00D-AF4C-CF7A-A39F-4B91CE680F4F";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "7F89C5AD-9946-40D5-D151-81A62659026C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -9.0131873239922378 3.9044369080323511 2.9196757524932959 ;
-	setAttr ".r" -type "double3" 2.6616472602736048 1364.5999999992903 7.8861099574507363e-16 ;
+	setAttr ".t" -type "double3" 12.656209916442091 6.1217316350234059 -2.0733879194821063 ;
+	setAttr ".r" -type "double3" -20.138352740016213 1184.999999999219 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "AE764F3E-204F-7E08-6956-2D9A4668CE32";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 13.495964926782445;
+	setAttr ".coi" 7.9407204357395953;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
