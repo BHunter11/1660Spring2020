@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Overflowing trash in and by trash can.ma
-//Last modified: Wed, Mar 25, 2020 11:44:59 PM
+//Last modified: Fri, Mar 27, 2020 11:42:48 PM
 //Codeset: UTF-8
 requires maya "2020";
 requires "mtoa" "4.0.0";
@@ -10,13 +10,13 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Mac OS X 10.15.3";
-fileInfo "UUID" "4E3FF00D-AF4C-CF7A-A39F-4B91CE680F4F";
+fileInfo "UUID" "FC298003-B248-FB46-99DD-AC94D444C14F";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "7F89C5AD-9946-40D5-D151-81A62659026C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 12.656209916442091 6.1217316350234059 -2.0733879194821063 ;
-	setAttr ".r" -type "double3" -20.138352740016213 1184.999999999219 0 ;
+	setAttr ".t" -type "double3" 12.470784085736302 6.7359832661416625 -1.7635503648582751 ;
+	setAttr ".r" -type "double3" -24.93835274039677 1182.9999999991601 2.5444437451708134e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "AE764F3E-204F-7E08-6956-2D9A4668CE32";
 	setAttr -k off ".v" no;
@@ -5023,7 +5023,7 @@ createNode mesh -n "polySurfaceShape1" -p "loftedSurface2";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 289 ".pt";
+	setAttr -s 288 ".pt";
 	setAttr ".pt[0]" -type "float3" 1.8624239e-07 0 0.073264346 ;
 	setAttr ".pt[1]" -type "float3" 0 0 0.034344524 ;
 	setAttr ".pt[2]" -type "float3" -0.003452932 0.075441413 -0.041003473 ;
@@ -9138,7 +9138,7 @@ createNode mesh -n "polySurfaceShape1" -p "loftedSurface3";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 289 ".pt";
+	setAttr -s 288 ".pt";
 	setAttr ".pt[0]" -type "float3" 1.8624239e-07 0 0.073264346 ;
 	setAttr ".pt[1]" -type "float3" 0 0 0.034344524 ;
 	setAttr ".pt[2]" -type "float3" -0.003452932 0.075441413 -0.041003473 ;
@@ -13254,7 +13254,7 @@ createNode mesh -n "polySurfaceShape1" -p "loftedSurface4";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 289 ".pt";
+	setAttr -s 288 ".pt";
 	setAttr ".pt[0]" -type "float3" 1.8624239e-07 0 0.073264346 ;
 	setAttr ".pt[1]" -type "float3" 0 0 0.034344524 ;
 	setAttr ".pt[2]" -type "float3" -0.003452932 0.075441413 -0.041003473 ;
@@ -17370,7 +17370,7 @@ createNode mesh -n "polySurfaceShape1" -p "loftedSurface5";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 289 ".pt";
+	setAttr -s 288 ".pt";
 	setAttr ".pt[0]" -type "float3" 1.8624239e-07 0 0.073264346 ;
 	setAttr ".pt[1]" -type "float3" 0 0 0.034344524 ;
 	setAttr ".pt[2]" -type "float3" -0.003452932 0.075441413 -0.041003473 ;
@@ -19188,19 +19188,19 @@ createNode mesh -n "pCylinderShape2" -p "pCylinder2";
 		-0.0043638172 -0.00038178451 0.16581428 -0.0043638172;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "0CB8A47B-664E-56F9-AD77-DC82544E03AA";
+	rename -uid "69A6A2FC-374F-E87C-F790-BB9D9488243F";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "0248EA65-D644-2552-5DED-D18F8E82E53C";
+	rename -uid "3D2DAE5B-3B40-A173-D3CC-51A9B29A1CEB";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "F92A9128-0F43-8227-5F6A-38AC398AE331";
+	rename -uid "D5CE01E2-8749-22D1-1504-3487431E6A59";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "170A6AE5-894E-9782-2FE5-AC9CA4B26DF9";
+	rename -uid "ECEB6F2F-7549-8E3D-A1E6-D69637DCE3D0";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "6589AED9-E641-62E9-1D7F-D1AD6565AC51";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "30B445CA-DF4D-185D-1CEC-14A702664B29";
+	rename -uid "AA66CE0C-C04A-A398-BD08-2EB9EFDA5B2A";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "3EAA92BE-5D48-9932-5853-759F3E6F3C62";
 	setAttr ".g" yes;
@@ -19224,9 +19224,8 @@ createNode polyExtrudeFace -n "polyExtrudeFace1";
 createNode polyTweak -n "polyTweak1";
 	rename -uid "6ABE5C58-9847-D8B9-2F81-2ABA91CDA00F";
 	setAttr ".uopa" yes;
-	setAttr -s 11 ".tk";
-	setAttr ".tk[40]" -type "float3" 0 1.6633997 0 ;
-	setAttr ".tk[41]" -type "float3" 0 1.6633997 0 ;
+	setAttr -s 2 ".tk[40:41]" -type "float3"  0 1.6633997 0 0 1.6633997
+		 0;
 createNode polyExtrudeFace -n "polyExtrudeFace2";
 	rename -uid "8B4B8013-8B46-067D-A2E4-0C8F68CF3BF2";
 	setAttr ".ics" -type "componentList" 10 "f[0]" "f[2]" "f[4]" "f[6]" "f[8]" "f[10]" "f[12]" "f[14]" "f[16]" "f[18]";
@@ -19254,7 +19253,7 @@ createNode polyExtrudeFace -n "polyExtrudeFace3";
 createNode polyTweak -n "polyTweak2";
 	rename -uid "648591C9-3A42-E079-278A-11A3FF6AD6E5";
 	setAttr ".uopa" yes;
-	setAttr -s 59 ".tk";
+	setAttr -s 41 ".tk";
 	setAttr ".tk[40]" -type "float3" 0 5.9604645e-08 0 ;
 	setAttr ".tk[62]" -type "float3" 0.006495853 -0.0063001793 -0.0022036778 ;
 	setAttr ".tk[63]" -type "float3" 0.0056009851 -0.0063001793 -0.003959964 ;
@@ -19316,7 +19315,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n"
 		+ "            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n"
 		+ "\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n"
-		+ "            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"0\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n"
+		+ "            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n"
 		+ "            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"graphEditor\" (localizedPanelLabel(\"Graph Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Graph Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"OutlineEd\");\n            outlinerEditor -e \n                -showShapes 1\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 1\n                -showConnected 1\n                -showAnimCurvesOnly 1\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -organizeByClip 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n"
 		+ "                -autoExpand 1\n                -showDagOnly 0\n                -showAssets 1\n                -showContainedOnly 0\n                -showPublishedAsConnected 0\n                -showParentContainers 0\n                -showContainerContents 0\n                -ignoreDagHierarchy 0\n                -expandConnections 1\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 0\n                -showLeafs 1\n                -showNumericAttrsOnly 1\n                -highlightActive 0\n                -autoSelectNewObjects 1\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 1\n                -setFilter \"0\" \n                -showSetMembers 0\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n"
 		+ "                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 1\n                -mapMotionTrails 1\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n\n\t\t\t$editorName = ($panelName+\"GraphEd\");\n            animCurveEditor -e \n                -displayValues 0\n                -snapTime \"integer\" \n                -snapValue \"none\" \n                -showPlayRangeShades \"on\" \n                -lockPlayRangeShades \"off\" \n                -smoothness \"fine\" \n                -resultSamples 1\n                -resultScreenSamples 0\n                -resultUpdate \"delayed\" \n                -showUpstreamCurves 1\n"
@@ -19374,8 +19373,6 @@ select -ne :defaultResolution;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
-select -ne :ikSystem;
-	setAttr -s 4 ".sol";
 connectAttr "polyExtrudeFace3.out" "pCylinderShape2.i";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
