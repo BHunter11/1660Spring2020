@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Overflowing trash in and by trash can.ma
-//Last modified: Fri, Mar 27, 2020 11:42:48 PM
+//Last modified: Mon, Mar 30, 2020 11:36:53 PM
 //Codeset: UTF-8
 requires maya "2020";
 requires "mtoa" "4.0.0";
@@ -10,13 +10,13 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Mac OS X 10.15.3";
-fileInfo "UUID" "FC298003-B248-FB46-99DD-AC94D444C14F";
+fileInfo "UUID" "640DB663-C848-E510-9CEB-4795B8ACDAC2";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "7F89C5AD-9946-40D5-D151-81A62659026C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 12.470784085736302 6.7359832661416625 -1.7635503648582751 ;
-	setAttr ".r" -type "double3" -24.93835274039677 1182.9999999991601 2.5444437451708134e-14 ;
+	setAttr ".t" -type "double3" 12.055379745408409 7.6120244341236631 1.1391612271084288 ;
+	setAttr ".r" -type "double3" -32.138352740396485 1158.9999999991574 -1.6668787941293218e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "AE764F3E-204F-7E08-6956-2D9A4668CE32";
 	setAttr -k off ".v" no;
