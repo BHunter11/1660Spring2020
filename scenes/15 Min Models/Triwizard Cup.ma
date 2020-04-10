@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Triwizard Cup.ma
-//Last modified: Wed, Apr 08, 2020 12:19:04 AM
+//Last modified: Thu, Apr 09, 2020 10:15:39 PM
 //Codeset: UTF-8
 requires maya "2020";
 requires "mtoa" "4.0.0";
@@ -10,13 +10,13 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Mac OS X 10.15.3";
-fileInfo "UUID" "4F72A5D6-2D45-5DA9-A03B-7B89B224CB2F";
+fileInfo "UUID" "36D17F8D-964A-03AA-97DD-CAACAB18975C";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "91F967DC-9D43-3DFB-BB34-A2BB2BD11DF9";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 17.226294640415244 10.460069672597653 -8.4978973806618665 ;
-	setAttr ".r" -type "double3" -18.93835263815091 834.59999999965794 0 ;
+	setAttr ".t" -type "double3" 16.011377853990595 15.587862414014916 -0.95853788902494452 ;
+	setAttr ".r" -type "double3" -37.538352638125062 808.19999999964773 0 ;
 	setAttr ".rp" -type "double3" 1.7763568394002505e-15 6.4503957730721595e-14 0 ;
 	setAttr ".rpt" -type "double3" 4.8138207093576926e-15 -5.5749044171374592e-16 -5.5977573794598718e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
