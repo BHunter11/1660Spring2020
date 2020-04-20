@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Triwizard Cup.ma
-//Last modified: Fri, Apr 10, 2020 10:53:56 PM
+//Last modified: Sun, Apr 19, 2020 11:43:14 PM
 //Codeset: UTF-8
 requires maya "2020";
 requires "mtoa" "4.0.0";
@@ -10,13 +10,13 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Mac OS X 10.15.3";
-fileInfo "UUID" "095C11BA-9045-319C-C19B-D693A398E99C";
+fileInfo "UUID" "FA2132BA-0543-614D-3C92-0EBD2E24B737";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "91F967DC-9D43-3DFB-BB34-A2BB2BD11DF9";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -3.6897106785878826 -10.64648696496122 6.4617088628510482 ;
-	setAttr ".r" -type "double3" 122.06164736283476 865.39999999963379 0 ;
+	setAttr ".t" -type "double3" 16.658372483013892 14.512567104835925 0.53066194617690954 ;
+	setAttr ".r" -type "double3" -33.338352637135003 802.59999999958109 0 ;
 	setAttr ".rp" -type "double3" 1.7763568394002505e-15 6.4503957730721595e-14 0 ;
 	setAttr ".rpt" -type "double3" 4.8138207093576926e-15 -5.5749044171374592e-16 -5.5977573794598718e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -2861,7 +2861,7 @@ createNode mesh -n "loftedSurfaceShape1" -p "transform1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 947 ".pt";
+	setAttr -s 576 ".pt";
 	setAttr ".pt[2]" -type "float3" 5.9604645e-08 0 0 ;
 	setAttr ".pt[434]" -type "float3" 5.9604645e-08 0 0 ;
 	setAttr ".pt[539]" -type "float3" 5.9604645e-08 0 0 ;
@@ -21326,19 +21326,19 @@ createNode mesh -n "loftedSurface5Shape" -p "loftedSurface5";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "3E192408-284F-A1C4-6113-0DBA89F60EB1";
+	rename -uid "D32FC4BE-5F41-7EBF-1750-1E954E8D2DD5";
 	setAttr -s 6 ".lnk";
 	setAttr -s 6 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "BB783E77-1E48-2D82-E244-1798672AD56D";
+	rename -uid "F6CDD777-CA4B-12DF-DE6E-E096CAE2C979";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "FF9227B1-1241-CE33-D7C9-8A938D537EEA";
+	rename -uid "F586E995-794C-9E35-3C66-E295469E5122";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "ED04AE0C-DF4E-A7A0-A133-B4B3AD30F23E";
+	rename -uid "318F95C2-8D4C-03CF-D0B7-F3BEE4920DF2";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "2BB40217-6B4B-8ED9-D715-86B26744DA1D";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "8FEF894A-834C-6003-BE23-1EACE0F97184";
+	rename -uid "74BB8589-634E-FA01-EF52-5AA9C07333D2";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "5C0C34A2-C348-910B-E48C-F18AD2EF8A82";
 	setAttr ".g" yes;
